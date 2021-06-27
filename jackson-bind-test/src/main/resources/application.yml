@@ -1,0 +1,5 @@
+spring:
+  jackson:
+    property-naming-strategy: com.example.jacksonbindtest.CustomNamingStrategy
+    mapper:
+      use-std-bean-naming: true
